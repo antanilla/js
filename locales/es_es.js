@@ -3,16 +3,16 @@
 // Locale can be blank, in which case it will be used as the default for the
 // language.
 //
-// if you don't know your language/local codes, fine them here:
+// if you don't know your language/local codes, find them here:
 //   https://www.science.co.il/language/Locale-codes.php
 var language = 'es';
 var locale = 'es';
 
 // Do your translation here!
 var translation = {
-	"(empty note)": "(nota vacia)",
-	"(This process can take a while because we need to re-encrypt your keychain)": "",
-	", however you have {{length}} changes waiting to be synced that will be lost if you do this": ", sin embargo tienes {{length}} cambios esperando a ser sincronizados que serán perdidos si haces esto",
+	"(empty note)": "(nota vacía)",
+	"(This process can take a while because we need to re-encrypt your keychain)": "(Este proceso puede tardar un poco porque tenemos que cifrar de nuevo tu llavero)",
+	", however you have {{length}} changes waiting to be synced that will be lost if you do this": ", pero tienes {{length}} cambios pendientes de sincronizar que se perderán si lo haces",
 	"[Making links](https://turtlapp.com) is easy!": "",
 	"{{email}} has a confirmed account and this invite will be encrypted using their public key.": "",
 	"{{email}} has a Turtl account, but it is not confirmed. You may want protect the invite with a passphrase to keep it private.": "",
